@@ -98,25 +98,7 @@ npm start
 
 ## Locale Customization
 
-Locales are managed using a `localeManager.ts` utility. To add or change a locale:
-
-1. Create or update a locale JSON file in `src/locales/` (e.g., `en.json`, `fr.json`).
-2. Use the `localeManager.ts` utility to set or get the current locale:
-
-   ```typescript
-   import { setLocale, getLocale, t } from "../utils/localeManager";
-
-   // Set locale
-   setLocale("fr");
-
-   // Get current locale
-   const currentLocale = getLocale();
-
-   // Translate a key
-   const message = t("welcomeMessage");
-   ```
-
-3. Update components to use the `t` function for localized strings.
+- Please follow the [Next-Intl Instruction](https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing)
 
 ## Theme Customization
 
