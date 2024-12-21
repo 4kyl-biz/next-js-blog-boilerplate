@@ -1,0 +1,12 @@
+{
+  "LocaleSwitcher": {
+    "title": "Language switcher"
+  },
+  "HomePage": {
+    "title": "Hello world!",
+    "about": "Go to the about page"
+  },
+  "AboutPage": {
+    "title": "About page"
+  }
+}
