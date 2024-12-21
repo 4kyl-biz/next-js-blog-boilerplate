@@ -1,9 +1,7 @@
 import { NextPage } from "next";
 import { useTranslations } from "next-intl";
 
-interface Props {}
-
-const Page: NextPage<Props> = ({}) => {
+const Page: NextPage = ({}) => {
   const t = useTranslations("AboutPage");
 
   return (
