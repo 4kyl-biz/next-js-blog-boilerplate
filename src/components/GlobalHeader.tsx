@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { NavigationMenuBar } from "./NavigationMenuBar";
 import Logo from "@/assets/images/logo.webp";
-import { Separator } from "./ui/separator";
+
 const GlobalHeader = ({ locale }: { locale: string }) => {
   return (
     <div className="flex items-center justify-between p-4">

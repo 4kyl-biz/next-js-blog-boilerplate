@@ -1,10 +1,8 @@
 import { Link } from "@/i18n/routing";
 import {
   NavigationMenu,
-  NavigationMenuContent,
   NavigationMenuItem,
   NavigationMenuList,
-  NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 import LocaleSwitcher from "./LocaleSwitcher";

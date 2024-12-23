@@ -8,7 +8,7 @@ const Page: NextPage = ({}) => {
     <div>
       <main className="py-12">
         <section id="about" className="text-center">
-          <h2 className="text-3xl font-bold">About Us</h2>
+          <h2 className="text-3xl font-bold">{t("title")}</h2>
           <p className="text-lg mt-4 max-w-3xl mx-auto">
             At My Blinds Shop, we specialize in providing high-quality,
             custom-made blinds for homes and businesses. Our mission is to offer

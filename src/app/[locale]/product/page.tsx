@@ -39,8 +39,8 @@ const ProductPage = () => {
           <h1 className="text-4xl font-bold">Premium Custom Blinds</h1>
           <p className="text-lg mt-4 max-w-3xl mx-auto">
             Our premium custom blinds offer the perfect balance of style and
-            functionality. Whether you're decorating your living room or need
-            office blinds, we have something to match every need.
+            functionality. Whether you&apos;re decorating your living room or
+            need office blinds, we have something to match every need.
           </p>
 
           <CarouselDemo />

@@ -1,16 +1,12 @@
-import { useTranslations } from "next-intl";
 import HomeImage from "@/assets/images/Wintergarden-Skylight-Blinds.jpg";
 import Image from "next/image";
 
 export default function HomePage() {
-  const t = useTranslations("HomePage");
-
   return (
     <div>
       <main>
         <section className="relative">
           <Image
-            // src={BlindsImage}
             src={HomeImage}
             alt="Premium Custom Blinds"
             className="mx-auto"
