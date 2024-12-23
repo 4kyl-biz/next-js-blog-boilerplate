@@ -1,6 +1,19 @@
 import { NextPage } from "next";
 import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "AboutPage" });
+
+  return {
+    title: t("title"),
+  };
+}
 const Page: NextPage = ({}) => {
   const t = useTranslations("AboutPage");
 

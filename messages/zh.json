@@ -1,6 +1,6 @@
 {
-  "LocaleSwitcher": {
-    "title": "语言切换"
+  "Metadata": {
+    "brand_name": "乐居布艺"
   },
   "NavigationMenuBar": {
     "home": "首页",
@@ -12,6 +12,9 @@
     "about": "前往关于页面"
   },
   "AboutPage": {
-    "title": "关于页面"
+    "title": "关于我们"
+  },
+  "ProductPage": {
+    "title": "产品介绍"
   }
 }

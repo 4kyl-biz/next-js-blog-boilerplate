@@ -6,6 +6,20 @@ import {
   CarouselPrevious,
   CarouselNext,
 } from "@/components/ui/carousel";
+import { getTranslations } from "next-intl/server";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "ProductPage" });
+
+  return {
+    title: t("title"),
+  };
+}
 
 export function CarouselDemo() {
   return (
