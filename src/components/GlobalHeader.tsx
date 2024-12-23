@@ -4,14 +4,10 @@ import Logo from "@/assets/images/logo.webp";
 import { Separator } from "./ui/separator";
 const GlobalHeader = ({ locale }: { locale: string }) => {
   return (
-    <>
-      <div className="flex items-center justify-between p-4">
-        <Image src={Logo} alt="SweetNest Logo" width={70} />
-        <NavigationMenuBar locale={locale} />
-      </div>
-
-      <Separator className="mb-4" />
-    </>
+    <div className="flex items-center justify-between p-4">
+      <Image src={Logo} alt="SweetNest Logo" width={70} />
+      <NavigationMenuBar locale={locale} />
+    </div>
   );
 };
 
