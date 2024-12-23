@@ -1,0 +1,12 @@
+{
+  "LocaleSwitcher": {
+    "title": "语言切换"
+  },
+  "HomePage": {
+    "title": "你好，世界！",
+    "about": "前往关于页面"
+  },
+  "AboutPage": {
+    "title": "关于页面"
+  }
+}
