@@ -2,6 +2,11 @@
   "LocaleSwitcher": {
     "title": "Language switcher"
   },
+  "NavigationMenuBar": {
+    "home": "Home",
+    "about": "About Us",
+    "product": "Product"
+  },
   "HomePage": {
     "title": "Hello world!",
     "about": "Go to the about page"

@@ -2,6 +2,11 @@
   "LocaleSwitcher": {
     "title": "语言切换"
   },
+  "NavigationMenuBar": {
+    "home": "首页",
+    "about": "关于我们",
+    "product": "产品"
+  },
   "HomePage": {
     "title": "你好，世界！",
     "about": "前往关于页面"
