@@ -1,13 +1,36 @@
-import { useTranslations } from "next-intl";
-import { Link } from "@/i18n/routing";
+import HomeImage from "@/assets/images/Wintergarden-Skylight-Blinds.jpg";
+import Image from "next/image";
 
 export default function HomePage() {
-  const t = useTranslations("HomePage");
-
   return (
     <div>
-      <h1>{t("title")}</h1>
-      <Link href="/about">{t("about")}</Link>
+      <main>
+        <section className="relative">
+          <Image
+            src={HomeImage}
+            alt="Premium Custom Blinds"
+            className="mx-auto"
+            width={10000}
+          />
+        </section>
+
+        <section className="bg-gray-100 py-12 text-center">
+          <h2 className="text-3xl font-bold">Premium Custom Blinds</h2>
+          <p className="text-lg mt-4">
+            Shop the best blinds at the most affordable prices.
+          </p>
+        </section>
+        <section id="products" className="py-12">
+          <h2 className="text-2xl font-bold text-center">Our Products</h2>
+          {/* Add product components here */}
+        </section>
+        <section id="about" className="bg-gray-50 py-12 text-center">
+          <h2 className="text-2xl font-bold">About Us</h2>
+          <p className="text-lg mt-4">
+            We specialize in high-quality, affordable blinds and windows.
+          </p>
+        </section>
+      </main>
     </div>
   );
 }
