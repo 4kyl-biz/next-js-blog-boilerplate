@@ -4,17 +4,19 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import GlobalHeader from "@/components/GlobalHeader";
 
-export function generateStaticParams() {
+export async function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
 export default async function LocaleLayout({
   children,
-  params: { locale },
+  params,
 }: {
   children: React.ReactNode;
   params: { locale: "en" | "zh" };
 }) {
+  const { locale } = await params;
+
   // Ensure that the incoming `locale` is valid
   if (!routing.locales.includes(locale)) {
     notFound();
