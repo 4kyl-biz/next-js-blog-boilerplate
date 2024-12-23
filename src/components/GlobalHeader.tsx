@@ -1,8 +1,7 @@
 import Image from "next/image";
 import { NavigationMenuBar } from "./NavigationMenuBar";
 import Logo from "@/assets/images/logo.webp";
-import Divider from "./Divider";
-
+import { Separator } from "./ui/separator";
 const GlobalHeader = ({ locale }: { locale: string }) => {
   return (
     <>
@@ -11,7 +10,7 @@ const GlobalHeader = ({ locale }: { locale: string }) => {
         <NavigationMenuBar locale={locale} />
       </div>
 
-      <Divider />
+      <Separator className="mb-4" />
     </>
   );
 };
