@@ -22,9 +22,7 @@ export default function LocaleSwitcher({ locale }: { locale: string }) {
 
   return (
     <div>
-      <h1>
-        {t("title")} {locale}
-      </h1>
+      <h1>{/* {t("title")} {locale} */}</h1>
       <select
         className={classes["locale-switcher"]}
         value={locale}
