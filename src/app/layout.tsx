@@ -5,7 +5,6 @@ import {
   getTranslations,
   setRequestLocale,
 } from "next-intl/server";
-import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import GlobalHeader from "@/components/GlobalHeader";
 import GlobalFooter from "@/components/GlobalFooter";
@@ -61,19 +60,14 @@ export async function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
-export default async function LocaleLayout({
+export default async function RootLayout({
   children,
   params,
 }: {
   children: React.ReactNode;
-  params: { locale: "en" | "zh" };
+  params: Promise<{ locale: "en" | "zh" }>;
 }) {
   const { locale } = await params;
-
-  // Ensure that the incoming `locale` is valid
-  if (!routing.locales.includes(locale)) {
-    notFound();
-  }
 
   // Enable static rendering
   setRequestLocale(locale);
@@ -86,14 +80,18 @@ export default async function LocaleLayout({
     <html lang={locale}>
       <body>
         <NextIntlClientProvider locale={locale} messages={messages}>
-          <div className="px-16">
-            <GlobalHeader locale={locale} />
-            <Separator />
+          <div className="px-16 flex flex-col min-h-screen justify-between">
+            <section>
+              <GlobalHeader locale={locale} />
+              <Separator />
+            </section>
 
-            {children}
+            <section>{children}</section>
 
-            <Separator />
-            <GlobalFooter />
+            <section>
+              <Separator />
+              <GlobalFooter />
+            </section>
           </div>
         </NextIntlClientProvider>
       </body>

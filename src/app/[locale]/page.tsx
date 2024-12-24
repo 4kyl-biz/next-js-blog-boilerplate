@@ -25,6 +25,7 @@ export default function HomePage() {
             src={HomeImage}
             alt="Premium Custom Blinds"
             className="mx-auto"
+            // TODO: fix it to be 100% width
             width={10000}
           />
         </section>
