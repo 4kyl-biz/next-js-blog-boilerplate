@@ -1,11 +1,31 @@
 import "@/styles/global.css";
 import { NextIntlClientProvider } from "next-intl";
-import { getMessages, setRequestLocale } from "next-intl/server";
+import {
+  getMessages,
+  getTranslations,
+  setRequestLocale,
+} from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import GlobalHeader from "@/components/GlobalHeader";
 import GlobalFooter from "@/components/GlobalFooter";
 import { Separator } from "@/components/ui/separator";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "Metadata" });
+
+  return {
+    title: {
+      template: `%s | ${t("brand_name")}`,
+      default: t("brand_name"), // a default is required when creating a template
+    },
+  };
+}
 
 export async function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));

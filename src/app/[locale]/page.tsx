@@ -1,5 +1,20 @@
 import HomeImage from "@/assets/images/Wintergarden-Skylight-Blinds.jpg";
+import { getTranslations } from "next-intl/server";
 import Image from "next/image";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "Metadata" });
+  const page = await getTranslations({ locale, namespace: "HomePage" });
+
+  return {
+    title: `${page("title")} | ${t("brand_name")}`,
+  };
+}
 
 export default function HomePage() {
   return (

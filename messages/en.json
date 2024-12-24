@@ -1,6 +1,6 @@
 {
-  "LocaleSwitcher": {
-    "title": "Language switcher"
+  "Metadata": {
+    "brand_name": "Sweet Nest Curtains & Blinds"
   },
   "NavigationMenuBar": {
     "home": "Home",
@@ -8,10 +8,13 @@
     "product": "Product"
   },
   "HomePage": {
-    "title": "Home page",
+    "title": "Home",
     "about": "Go to the about page"
   },
   "AboutPage": {
-    "title": "About page"
+    "title": "About us"
+  },
+  "ProductPage": {
+    "title": "Product"
   }
 }
