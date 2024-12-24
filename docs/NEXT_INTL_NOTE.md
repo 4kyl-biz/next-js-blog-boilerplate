@@ -105,6 +105,34 @@ export async function generateMetadata({ params }) {
 
 ---
 
+## Usage
+
+### Adding New Languages
+
+- Add new locale to config/i18n.ts
+  Create corresponding message file in messages/
+  Update middleware configuration if needed
+
+### Translation Organization
+
+- Group translations by feature/page in message files
+  Use nested objects for better organization
+  Keep keys consistent across all language files
+
+### Type Safety
+
+- Use TypeScript for better type checking
+  Define types for your messages structure
+  Leverage IDE autocompletion for translation keys
+
+### Performance
+
+- Messages are automatically code-split by page
+  Only loads translations needed for current route
+  Static pages are pre-rendered at build time
+
+---
+
 ## Conclusion
 
 Using `setRequestLocale` in your `next-intl` implementation is essential for maintaining a robust multilingual application. It ensures:
