@@ -1,0 +1,35 @@
+{
+  "GlobalError": {
+    "title": "Error",
+    "description": "An error occurred. Please try again.",
+    "action": "Refresh the page"
+  },
+  "NotFoundError": {
+    "title": "Page not found",
+    "description": "We couldn't find the page you're looking for. Please try again.",
+    "action": "Go back to the home page"
+  },
+  "InternalServerError": {
+    "title": "Internal server error",
+    "description": "There was an internal server error. Please try again.",
+    "action": "Refresh the page"
+  },
+  "Metadata": {
+    "brand_name": "Sweet Nest Curtains & Blinds"
+  },
+  "NavigationMenuBar": {
+    "home": "Home",
+    "about": "About Us",
+    "product": "Product"
+  },
+  "HomePage": {
+    "title": "Home",
+    "about": "Go to the about page"
+  },
+  "AboutPage": {
+    "title": "About us"
+  },
+  "ProductPage": {
+    "title": "Product"
+  }
+}
