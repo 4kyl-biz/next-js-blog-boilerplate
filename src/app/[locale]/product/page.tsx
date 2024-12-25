@@ -21,7 +21,7 @@ export async function generateMetadata({
   };
 }
 
-export function CarouselDemo() {
+function CarouselDemo() {
   return (
     <div className="flex items-center justify-center">
       <Carousel className="w-full max-w-xs">

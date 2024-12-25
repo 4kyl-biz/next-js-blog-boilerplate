@@ -1,4 +1,19 @@
 {
+  "GlobalError": {
+    "title": "出错了",
+    "description": "发生了错误。请刷新页面。",
+    "action": "刷新页面"
+  },
+  "NotFoundError": {
+    "title": "页面未找到",
+    "description": "我们无法找到您正在寻找的页面。请再试一次。",
+    "action": "返回首页"
+  },
+  "InternalServerError": {
+    "title": "内部服务器错误",
+    "description": "发生了内部服务器错误。请再试一次。",
+    "action": "刷新页面"
+  },
   "Metadata": {
     "brand_name": "乐居布艺"
   },

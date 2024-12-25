@@ -5,11 +5,11 @@ import {
   getTranslations,
   setRequestLocale,
 } from "next-intl/server";
-import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import GlobalHeader from "@/components/GlobalHeader";
 import GlobalFooter from "@/components/GlobalFooter";
 import { Separator } from "@/components/ui/separator";
+import { notFound } from "next/navigation";
 
 export async function generateMetadata({
   params,
@@ -66,12 +66,12 @@ export default async function LocaleLayout({
   params,
 }: {
   children: React.ReactNode;
-  params: { locale: "en" | "zh" };
+  params: Promise<{ locale: "en" | "zh" }>;
 }) {
   const { locale } = await params;
 
   // Ensure that the incoming `locale` is valid
-  if (!routing.locales.includes(locale)) {
+  if (!routing.locales.includes(locale as any)) {
     notFound();
   }
 
@@ -86,14 +86,18 @@ export default async function LocaleLayout({
     <html lang={locale}>
       <body>
         <NextIntlClientProvider locale={locale} messages={messages}>
-          <div className="px-16">
-            <GlobalHeader locale={locale} />
-            <Separator />
+          <div className="px-16 flex flex-col min-h-screen justify-between">
+            <section>
+              <GlobalHeader locale={locale} />
+              <Separator />
+            </section>
 
-            {children}
+            <section>{children}</section>
 
-            <Separator />
-            <GlobalFooter />
+            <section>
+              <Separator />
+              <GlobalFooter />
+            </section>
           </div>
         </NextIntlClientProvider>
       </body>
