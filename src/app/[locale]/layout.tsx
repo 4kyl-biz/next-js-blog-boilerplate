@@ -6,10 +6,11 @@ import {
   setRequestLocale,
 } from "next-intl/server";
 import { routing } from "@/i18n/routing";
-import GlobalHeader from "@/components/GlobalHeader";
-import GlobalFooter from "@/components/GlobalFooter";
-import { Separator } from "@/components/ui/separator";
+import GlobalHeader from "@/components/page/header/GlobalHeader";
+import GlobalFooter from "@/components/page/footer/GlobalFooter";
 import { notFound } from "next/navigation";
+import FooterNavigation from "@/components/page/footer/FooterNav";
+import { Toaster } from "@/components/ui/sonner";
 
 export async function generateMetadata({
   params,
@@ -87,19 +88,19 @@ export default async function LocaleLayout({
     <html lang={locale}>
       <body>
         <NextIntlClientProvider locale={locale} messages={messages}>
-          <div className="px-16 flex flex-col min-h-screen justify-between">
-            <section>
+          <div className="flex flex-col min-h-screen justify-between">
+            <section className="container mx-auto flex items-center justify-between mb-2">
               <GlobalHeader locale={locale} />
-              <Separator />
             </section>
 
             <section>{children}</section>
 
             <section>
-              <Separator />
+              <FooterNavigation />
               <GlobalFooter />
             </section>
           </div>
+          <Toaster richColors />
         </NextIntlClientProvider>
       </body>
     </html>
