@@ -14,22 +14,274 @@
     "description": "There was an internal server error. Please try again.",
     "action": "Refresh the page"
   },
+  "ServerErrorMsgs": {
+    "invalidData": "Invalid data",
+    "missingFields": "Missing fields",
+    "reCaptchaTokenMissing": "reCAPTCHA token is missing",
+    "failedToVerifyReCaptcha": "Failed to verify reCAPTCHA"
+  },
   "Metadata": {
     "brand_name": "Sweet Nest Curtains & Blinds"
   },
   "NavigationMenuBar": {
+    "getFreeQuote": "Get a free measure & quote",
     "home": "Home",
-    "about": "About Us",
+    "contact": "Contact",
     "product": "Product"
+  },
+  "AllCategories": {
+    "curtains": "Curtains",
+    "fabric": "Fabric",
+    "sheerCurtains": "Sheer Curtains",
+    "curtainHeadings": "Curtain Headings",
+    "blinds": "Blinds",
+    "rollerBlinds": "Roller Blinds",
+    "venetianBlinds": "Venetian Blinds",
+    "romanBlinds": "Roman Blinds",
+    "verticalBlinds": "Vertical Blinds",
+    "zebraBlinds": "Zebra Blinds",
+    "shangriLaBlinds": "Shangri-La Blinds",
+    "shutters": "Shutters"
+  },
+  "ProductCategories": {
+    "curtains": {
+      "parent": "main",
+      "title": "Curtains",
+      "subtitle": "Curtains",
+      "buttonText": "Read More",
+      "description": "Customisable curtains in a variety of fabrics, styles, and headings to suit any room."
+    },
+    "sheer-curtains": {
+      "parent": "main",
+      "title": "Sheer Curtains",
+      "subtitle": "Sheer Curtains",
+      "buttonText": "Read More",
+      "description": "Lightweight curtains that allow natural light to filter through while providing privacy."
+    },
+    "roller-blinds": {
+      "parent": "main",
+      "title": "Roller Blinds",
+      "subtitle": "Roller Blinds",
+      "buttonText": "Read More",
+      "description": "Simple and versatile blinds that roll up neatly, available in a range of fabrics and light filtering options."
+    },
+    "shutters": {
+      "parent": "main",
+      "title": "Shutters",
+      "subtitle": "Shutters",
+      "buttonText": "Read More",
+      "description": "Elegant and durable window treatments that provide privacy and light control."
+    },
+    "curtains-fabric": {
+      "parent": "curtains",
+      "title": "Fabric",
+      "subtitle": "Curtains",
+      "buttonText": "Read More",
+      "description": "Explore a wide range of materials including cotton, linen, velvet, silk, and blends to suit any style and purpose."
+    },
+    "curtains-sheer-curtains": {
+      "parent": "curtains",
+      "title": "Sheer Curtains",
+      "subtitle": "Sheer Curtains",
+      "buttonText": "Read More",
+      "description": "Lightweight curtains that allow natural light to filter through while providing privacy."
+    },
+    "curtains-curtain-headings": {
+      "parent": "curtains",
+      "title": "Curtain Headings",
+      "subtitle": "Curtain Headings",
+      "buttonText": "Read More",
+      "description": "Different curtain heading styles, such as pinch pleats, eyelets, and S-waves, to achieve the desired aesthetic and functionality."
+    },
+    "blinds-roller-blinds": {
+      "parent": "blinds",
+      "title": "Roller Blinds",
+      "subtitle": "Roller Blinds",
+      "buttonText": "Read More",
+      "description": "Simple and versatile blinds that roll up neatly, available in a range of fabrics and light filtering options."
+    },
+    "blinds-venetian-blinds": {
+      "parent": "blinds",
+      "title": "Venetian Blinds",
+      "subtitle": "Venetian Blinds",
+      "buttonText": "Read More",
+      "description": "Classic horizontal blinds with adjustable slats, perfect for controlling light and privacy."
+    },
+    "blinds-roman-blinds": {
+      "parent": "blinds",
+      "title": "Roman Blinds",
+      "subtitle": "Roman Blinds",
+      "buttonText": "Read More",
+      "description": "Elegant fabric blinds that fold into pleats when raised, offering a sophisticated look for any room."
+    },
+    "blinds-vertical-blinds": {
+      "parent": "blinds",
+      "title": "Vertical Blinds",
+      "subtitle": "Vertical Blinds",
+      "buttonText": "Read More",
+      "description": "Blinds with vertical slats, ideal for large windows or sliding doors, offering flexible light control."
+    },
+    "blinds-zebra-blinds": {
+      "parent": "blinds",
+      "title": "Zebra Blinds",
+      "subtitle": "Zebra Blinds",
+      "buttonText": "Read More",
+      "description": "Dual-layered blinds with alternating sheer and solid fabric strips, providing adjustable light and privacy."
+    },
+    "blinds-shangri-la-blinds": {
+      "parent": "blinds",
+      "title": "Shangri-La Blinds",
+      "subtitle": "Shangri-La Blinds",
+      "buttonText": "Read More",
+      "description": "Luxury blinds with soft fabric vanes suspended between sheer panels, combining elegance with functionality."
+    }
+  },
+  "Footer": {
+    "description": "Sweet Nest Curtains & Blinds are a custom curtain and blind provider that offers all Sydney and surrounding areas a vast range of top-quality window coverings.",
+    "phoneTitle": "Phone",
+    "phone": "0468 711 051",
+    "emailTitle": "Email",
+    "email": "sweetnest.curtains@gmail.com",
+    "showroomTitle": "Showroom",
+    "showroom": "Kellyville, NSW 2155",
+    "tradingHours": "Trading Hours",
+    "mondayToFriday": "Monday to Friday:",
+    "mondayToFridayHours": "9:00 - 17:00",
+    "weekend": "Weekend:",
+    "byAppointment": "By Appointment",
+    "productsTitle": "Our Products",
+    "cookiesPolicy": "Cookies Policy",
+    "privacyPolicy": "Privacy Policy",
+    "mobileShowroom": "Mobile Showroom",
+    "mobileShowroomDescription": "We will bring our Mobile Showroom to you. Call us now!"
   },
   "HomePage": {
     "title": "Home",
-    "about": "Go to the about page"
+    "heroSection_title": "Welcome to Sweet Nest",
+    "heroSection_description": "Beautiful curtains and blinds for your home",
+    "keyFeatures_feature1_title": "Free Measure & Quote",
+    "keyFeatures_feature1_description": "Enjoy a hassle-free experience with our free measure and quote service.",
+    "keyFeatures_feature2_title": "Quality Service Guarantee",
+    "keyFeatures_feature2_description": "We stand behind our work and ensure top-notch service for every customer.",
+    "keyFeatures_feature3_title": "Fast Turnaround",
+    "keyFeatures_feature3_description": "Quick and efficient service to meet your deadlines without compromise.",
+    "keyFeatures_feature4_title": "Competitive Pricing",
+    "keyFeatures_feature4_description": "High-quality products and services at prices you can afford.",
+    "ourStory_title": "Our Story",
+    "ourStory_description": "At Sweet Nest, we’re passionate about bringing elegance and comfort to your home with high-quality, custom-made curtains and blinds. We offer a range of beautiful designs to suit every taste, working with trusted brands to ensure the best for your space. Our friendly team is here to help you find the perfect fit, making the process easy and enjoyable. Visit us in Kellyville and let us help you create a warm and cozy atmosphere in your home.",
+    "ourStory_buttonText": "Book A Free Measure And Quote",
+    "ourStory_imageAlt": "Sweet Nest Image",
+    "howItWorks_title": "How It Works",
+    "howItWorks_step1_title": "Step 1",
+    "howItWorks_step1_description": "Select the product style you want to purchase directly on the website and note the product number.",
+    "howItWorks_step2_title": "Step 2",
+    "howItWorks_step2_description": "Contact us to estimate the total custom price based on your product selection and the actual door/window dimensions.",
+    "howItWorks_step3_title": "Step 3",
+    "howItWorks_step3_description": "Confirm the custom quote, receive free on-site measurement and sample provision, and pay the production deposit.",
+    "howItWorks_step4_title": "Step 4",
+    "howItWorks_step4_description": "Once the custom product is ready, we offer free on-site installation. Experience a one-stop convenient service without leaving your home."
   },
-  "AboutPage": {
-    "title": "About us"
+  "ContactPage": {
+    "title": "Contact us",
+    "Banner": {
+      "title": "Get in touch",
+      "description": "Get in touch with us for a free measure and quote. Our team is here to help you find the perfect window coverings for your home.",
+      "alt": "Contact Us"
+    },
+    "Description": {
+      "title": "Book A Free Measure And Quote",
+      "description": "Get a personalised consultation from our experts. We provide tailored solutions to match your style and budget. Book now to bring your vision to life!"
+    },
+    "ContactForm": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "postcode": "Postcode",
+      "message": "Message",
+      "submit": "Submit",
+      "optional": "Optional",
+      "schema": {
+        "name": {
+          "required": "Please provide your name"
+        },
+        "email": {
+          "required": "Please provide your email",
+          "invalid": "Please provide a valid email address"
+        },
+        "phone": {
+          "required": "Please provide your phone number",
+          "min": "Please provide a phone number with at least 10 digits",
+          "max": "Please provide a phone number with at most 15 digits",
+          "regex": "Please provide a phone number that contains only numbers"
+        },
+        "postcode": {
+          "regex": "Please provide a post code that contains only numbers"
+        },
+        "message": {
+          "max": "Please provide a message with at most 500 characters"
+        }
+      },
+      "apiMessages": {
+        "submitSuccess": "We have received your message and will get back to you soon.",
+        "submitError": "Email failed to send. Please try again later.",
+        "reCaptchaError": "Failed to verify reCAPTCHA. Please try again."
+      }
+    }
   },
-  "ProductPage": {
-    "title": "Product"
+  "ShutterPage": {
+    "title": "{category}",
+    "description": "SweetNest Curtains & Blinds offers a variety of shutter solutions, including wooden, composite, and PVC shutters. These shutters not only provide privacy and light control but also add elegance and a classic style to your space. Our shutter designs are durable, easy to clean, and suitable for various window sizes and shapes."
+  },
+  "CurtainsPage": {
+    "title": "{category}",
+    "description": "Curtains are more than just window coverings—they enhance privacy, regulate light, improve insulation, and add a touch of elegance to any room. Whether you're seeking a cozy, minimalist vibe or a luxurious, statement-making look, our curated selection of curtains offers something for every taste. With Sweet Nest, you’ll find innovative features like blackout fabrics, energy-efficient materials, and custom designs to elevate your home or office."
+  },
+  "FabricPage": {
+    "title": "{category}",
+    "description": "Fabric curtains are a versatile and essential element in home décor, offering both functionality and style. Crafted from a variety of materials such as cotton, linen, velvet, and polyester, they provide effective light control, privacy, and insulation. Explore more about our different series of curtain styles."
+  },
+  "SheerCurtainsPage": {
+    "title": "{category}",
+    "description": "Sheer curtains are lightweight and translucent window coverings that add a touch of elegance and softness to any space. Designed to let in natural light while providing a hint of privacy, they create a bright and airy ambiance. Explore about a wide range of sheer curtains."
+  },
+  "CurtainHeadingsPage": {
+    "title": "{category}",
+    "description": "We provide different curtain heating styles including pinch pleats, double pinch pleats, eyelets, and S-waves to achieve the desired aesthetic and functionality you need."
+  },
+  "BlindsPage": {
+    "title": "{category}",
+    "description": "Blinds are practical and stylish window coverings designed to provide privacy, light control, and a modern aesthetic. Made from materials like wood, aluminum, or fabric, blinds come in various styles, including vertical, Venetian, and roller blinds. They are perfect for both homes and offices, offering a sleek and functional solution that complements any décor. With adjustable slats or smooth rolling mechanisms, blinds allow you to easily regulate light and create a comfortable ambiance."
+  },
+  "RollerBlindsPage": {
+    "title": "{category}",
+    "description": "Roller blinds are a sleek and practical window covering solution that offers excellent light control and privacy. Made from various materials like fabric or PVC, they are easy to operate and come in a wide range of colours and designs."
+  },
+  "VenetianBlindsPage": {
+    "title": "{category}",
+    "description": "Venetian blinds are a classic window treatment that offers timeless style and functionality. Made from horizontal slats that can be tilted to control light and privacy, these blinds are available in various materials like wood, aluminum, or PVC. With their versatile design and easy operation, Venetian blinds are a popular choice for both residential and commercial spaces."
+  },
+  "RomanBlindsPage": {
+    "title": "{category}",
+    "description": "Roman blinds are a classic and elegant window treatment that adds a touch of sophistication to any room. Made from fabric, they fold up neatly when raised and create a smooth, tailored look when lowered. These blinds offer excellent light control and privacy while enhancing the décor with their soft, refined appearance. Available in various colours, patterns, and textures, Roman blinds are perfect for both traditional and modern interiors, providing a timeless, stylish solution for your windows."
+  },
+  "VerticalBlindsPage": {
+    "title": "{category}",
+    "description": "Vertical blinds feature wider slats that run from top to bottom, making any window appear taller and more expansive. They offer full control over light while preserving privacy, allowing you to tilt the slats to your preferred angle. Alternatively, you can adjust them to allow a moderate amount of light to gently filter into the room. With their versatile design and low-maintenance qualities, vertical blinds have recently gained popularity and become a prominent choice."
+  },
+  "ZebraBlindsPage": {
+    "title": "{category}",
+    "description": "Zebra blinds, also known as dual blinds, offer a modern alternative to traditional horizontal blinds. Made of alternating stripes of opaque and sheer fabric, these blinds seamlessly transition from day to night. By adjusting the stripes, you can control the amount of light and privacy in your room."
+  },
+  "ShangriLaBlindsPage": {
+    "title": "{category}",
+    "description": "Shangri-La Blinds are customised fabrics that has a special wave that links the day and night fabrics together. Upon drawing the entire blind down, the blind opens up at the end to reveal a see-thru mesh, therefore having both day and night blind functions in 1 blind."
+  },
+  "CookiePolicyPage": {
+    "title": "Cookie Policy",
+    "page": "<h1>Cookie Policy</h1><p><strong>Last Updated:</strong> 1 November 2024</p><p>Sweet Nest Curtains and Blinds values your privacy. This Cookie Policy explains how we use cookies on our website to improve your browsing experience and provide tailored services.</p><h2>What Are Cookies?</h2><p>Cookies are small text files stored on your device when you visit a website. They help us understand how you interact with our site and enable us to improve functionality and performance.</p><h2>Types of Cookies We Use</h2><h3>1. Strictly Necessary Cookies</h3><p>These cookies are essential for the operation of our website, enabling features such as user authentication and secure browsing.</p><h3>2. Targeting Cookies</h3><p>These cookies help us deliver relevant advertisements and content based on your interests. They also allow us to measure the effectiveness of our marketing campaigns.</p><h2>Third-Party Cookies</h2><p>We use third-party services like <strong>Google Analytics</strong> to gather insights into website traffic and user behavior. These services may place cookies on your device to collect non-identifiable information for analytics and advertising purposes.</p><h2>Cookie Storage</h2><p>All cookies we use are <strong>session-based</strong>, meaning they are only stored temporarily while you browse our website. Once you close your browser, these cookies are automatically deleted.</p><h2>Managing Cookies</h2><p>Currently, we do not provide a cookie banner or a feature to customize cookie preferences. By using our website, you agree to our use of cookies as outlined in this</p>"
+  },
+  "PrivacyPolicyPage": {
+    "title": "Privacy Policy",
+    "page": "<div><h1>Privacy Policy</h1><p>Last Updated: January 3, 2025</p><div><section><h2>Introduction</h2><div><p>SweetNest Curtains and Blinds is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website and make purchases.</p></div></section><section><h2>Information We Collect</h2><div><h3>Personal Information</h3><p>We may collect personal information that you provide to us, including:</p><ul><li>Name and contact information</li><li>Email address</li><li>Phone number</li></ul><h3>Automatically Collected Information</h3><p>When you visit our website, we automatically collect certain information, including:</p><ul><li>Device information</li><li>IP address</li><li>Browser type</li><li>Pages viewed</li><li>Time spent on pages</li></ul></div></section><section><h2>How We Use Your Information</h2><div><p>We use the information we collect to:</p><ul><li>Process and fulfill your orders</li><li>Communicate with you about your orders</li><li>Send you marketing communications (with your consent)</li><li>Improve our website and services</li><li>Protect against fraud and unauthorized transactions</li><li>Comply with legal obligations</li></ul></div></section><section><h2>Information Sharing</h2><div><p>We may share your information with:</p><ul><li>Service providers who assist in our operations</li><li>Professional advisers and consultants</li><li>Law enforcement when required by law</li></ul><p>We do not sell your personal information to third parties.</p></div></section><section><h2>Your Rights</h2><div><p>You have the right to:</p><ul><li>Access your personal information</li><li>Correct inaccurate information</li><li>Request deletion of your information</li><li>Opt-out of marketing communications</li><li>Request a copy of your data</li></ul></div></section><section><h2>Contact Us</h2><div><p>If you have any questions about this Privacy Policy, please contact us at:</p><div><p>Email: sweetnest.curtains@gmail.com</p></div></div></section></div></div>"
   }
 }

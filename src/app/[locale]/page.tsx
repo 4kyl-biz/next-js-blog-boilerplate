@@ -1,6 +1,7 @@
-import HomeImage from "@/assets/images/Wintergarden-Skylight-Blinds.jpg";
 import { getTranslations } from "next-intl/server";
 import Image from "next/image";
+import HomeImage from "@/assets/images/home.jpg";
+import { useTranslations } from "next-intl";
 
 export async function generateMetadata({
   params,
@@ -17,17 +18,25 @@ export async function generateMetadata({
 }
 
 export default function HomePage() {
+  const t = useTranslations("HomePage");
+
   return (
     <div>
       <main>
-        <section className="relative">
-          <Image
-            src={HomeImage}
-            alt="Premium Custom Blinds"
-            className="mx-auto"
-            // TODO: fix it to be 100% width
-            width={10000}
-          />
+        <section className="container mx-auto relative h-[650px] bg-gray-200 flex items-center justify-center">
+          <div className="flex items-center justify-center w-full h-full">
+            <Image
+              src={HomeImage}
+              alt="Hero Banner"
+              fill
+              className="object-cover"
+            />
+
+            <div className="absolute text-center text-white">
+              <h1 className="text-4xl font-bold">{t("heroSection_title")}</h1>
+              <p className="mt-4 text-lg">{t("heroSection_description")}</p>
+            </div>
+          </div>
         </section>
 
         <section className="bg-gray-100 py-12 text-center">

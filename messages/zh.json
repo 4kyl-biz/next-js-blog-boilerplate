@@ -14,22 +14,261 @@
     "description": "发生了内部服务器错误。请再试一次。",
     "action": "刷新页面"
   },
+  "ServerErrorMsgs": {
+    "invalidData": "无效的数据",
+    "missingFields": "请输入有效的资料",
+    "reCaptchaTokenMissing": "reCAPTCHA令牌丢失",
+    "failedToVerifyReCaptcha": "无法验证reCAPTCHA"
+  },
   "Metadata": {
     "brand_name": "乐居布艺"
   },
   "NavigationMenuBar": {
+    "getFreeQuote": "免费报价",
     "home": "首页",
-    "about": "关于我们",
+    "contact": "联系我们",
     "product": "产品介绍"
+  },
+  "AllCategories": {
+    "curtains": "窗帘",
+    "fabric": "布艺窗帘",
+    "sheerCurtains": "纱帘",
+    "curtainHeadings": "窗帘顶部",
+    "blinds": "百叶窗帘",
+    "rollerBlinds": "卷帘",
+    "venetianBlinds": "百叶帘",
+    "romanBlinds": "罗马帘",
+    "verticalBlinds": "垂直帘",
+    "zebraBlinds": "斑马帘",
+    "shangriLaBlinds": "香格里拉帘",
+    "shutters": "木质百叶窗"
+  },
+  "ProductCategories": {
+    "curtains": {
+      "parent": "main",
+      "title": "窗帘",
+      "subtitle": "窗帘",
+      "buttonText": "查看更多",
+      "description": "提供多种面料、风格和悬挂方式，可根据任何房间需求进行定制的窗帘。"
+    },
+    "curtains-fabric": {
+      "parent": "curtains",
+      "title": "布艺窗帘",
+      "subtitle": "窗帘",
+      "buttonText": "查看更多",
+      "description": "探索广泛的材质选择，包括棉、麻、天鹅绒、丝绸及混纺，适合各种风格和用途。"
+    },
+    "curtains-sheer-curtains": {
+      "parent": "curtains",
+      "title": "纱帘",
+      "subtitle": "纱帘",
+      "buttonText": "查看更多",
+      "description": "轻盈的窗帘，让自然光透过的同时提供隐私保护。"
+    },
+    "curtains-curtain-headings": {
+      "parent": "curtains",
+      "title": "窗帘顶部",
+      "subtitle": "窗帘顶部",
+      "buttonText": "查看更多",
+      "description": "多种窗帘顶部样式，例如打褶、穿孔环和S波形，助您实现理想的美观与功能性。"
+    },
+    "shutters": {
+      "parent": "main",
+      "title": "木质百叶窗",
+      "subtitle": "木质百叶窗",
+      "buttonText": "查看更多",
+      "description": "优雅耐用的窗饰，兼具隐私保护和光线调节功能。"
+    },
+    "blinds-roller-blinds": {
+      "parent": "blinds",
+      "title": "卷帘",
+      "subtitle": "卷帘",
+      "buttonText": "了解更多",
+      "description": "简单多功能的窗帘，能够整齐卷起，提供多种面料和光过滤选项。"
+    },
+    "blinds-venetian-blinds": {
+      "parent": "blinds",
+      "title": "百叶帘",
+      "subtitle": "百叶帘",
+      "buttonText": "了解更多",
+      "description": "经典百叶窗设计，提供多种材质和颜色选择，适用于各种窗户尺寸和形状。"
+    },
+    "blinds-roman-blinds": {
+      "parent": "blinds",
+      "title": "罗马帘",
+      "subtitle": "罗马帘",
+      "buttonText": "了解更多",
+      "description": "优雅的布艺窗帘，升起时折叠成褶皱，为任何房间提供精致的外观。"
+    },
+    "blinds-vertical-blinds": {
+      "parent": "blinds",
+      "title": "垂直帘",
+      "subtitle": "垂直帘",
+      "buttonText": "了解更多",
+      "description": "带有垂直条的窗帘，适合大窗户或推拉门，提供灵活的光线控制。"
+    },
+    "blinds-zebra-blinds": {
+      "parent": "blinds",
+      "title": "斑马帘",
+      "subtitle": "斑马帘",
+      "buttonText": "了解更多",
+      "description": "双层窗帘，交替的透明和不透明布料条，提供可调节的光线和隐私。"
+    },
+    "blinds-shangri-la-blinds": {
+      "parent": "blinds",
+      "title": "香格里拉帘",
+      "subtitle": "香格里拉帘",
+      "buttonText": "了解更多",
+      "description": "豪华窗帘，柔软的布料悬浮在透明面板之间，结合优雅与功能性。"
+    }
+  },
+  "Footer": {
+    "description": "乐居布艺是一家提供定制窗帘和百叶窗的供应商，为悉尼及周边地区提供多种高品质窗饰选择",
+    "phoneTitle": "电话",
+    "phone": "0468 711 051",
+    "emailTitle": "邮箱",
+    "email": "sweetnest.curtains@gmail.com",
+    "showroomTitle": "展厅",
+    "showroom": "Kellyville, NSW 2155",
+    "tradingHours": "营业时间",
+    "mondayToFriday": "周一至周五:",
+    "mondayToFridayHours": "9:00 - 17:00",
+    "weekend": "周末:",
+    "byAppointment": "需预约",
+    "productsTitle": "我们的产品",
+    "cookiesPolicy": "Cookies政策",
+    "privacyPolicy": "隐私政策",
+    "termsAndConditions": "条款和条件",
+    "mobileShowroom": "移动展厅",
+    "mobileShowroomDescription": "我们的移动展厅将在悉尼各地展示我们的产品，欢迎随时预约参观。"
   },
   "HomePage": {
     "title": "首页",
-    "about": "前往关于页面"
+    "heroSection_title": "欢迎来到乐居布艺",
+    "heroSection_description": "为您的家居装饰美轮美奂的窗帘",
+    "keyFeatures_feature1_title": "免费测量和报价",
+    "keyFeatures_feature1_description": "享受我们的免费测量和报价服务，体验轻松无忧",
+    "keyFeatures_feature2_title": "优质的服务质量",
+    "keyFeatures_feature2_description": "我们以高标准服务为荣，确保客户满意",
+    "keyFeatures_feature3_title": "等待期短",
+    "keyFeatures_feature3_description": "快速高效的服务满足您的期限要求，毫不妥协",
+    "keyFeatures_feature4_title": "价格优势",
+    "keyFeatures_feature4_description": "以您负担得起的价格提供高质量的产品和服务",
+    "ourStory_title": "关于我们",
+    "ourStory_description": "在乐居布艺，我们致力于通过高质量的定制窗帘和百叶窗，为您的家居带来优雅与舒适。我们提供多种精美设计，满足各种审美需求，我们与值得信赖的品牌合作，工厂直营，确保为您的空间提供最佳选择。我们的友好团队随时为您提供帮助，帮助您找到最合适的搭配，让整个过程轻松愉快。欢迎光临位于Kellyville的门店，让我们帮助您打造一个温馨舒适的居家氛围。",
+    "ourStory_buttonText": "免费上门测量与报价",
+    "ourStory_imageAlt": "Sweet Nest Image",
+    "howItWorks_title": "如何订购安装",
+    "howItWorks_step1_title": "第一步",
+    "howItWorks_step1_description": "直接在网站上选择您想购买的产品样式并记录产品编号。",
+    "howItWorks_step2_title": "第二步",
+    "howItWorks_step2_description": "联系我们，根据您的产品选择和实际门窗尺寸估算定制总价。",
+    "howItWorks_step3_title": "第三步",
+    "howItWorks_step3_description": "满意定制报价后，您将享受免费上门测量和样品提供服务，并支付定金。",
+    "howItWorks_step4_title": "第四步",
+    "howItWorks_step4_description": "定制产品完成后，我们提供免费上门安装服务。足不出户，即可享受一站式便捷服务。"
   },
-  "AboutPage": {
-    "title": "关于我们"
+  "ContactPage": {
+    "title": "联系我们",
+    "Banner": {
+      "title": "联系我们",
+      "description": "联系我们，免费测量和报价。我们的团队将帮助您找到最适合您家的窗帘和窗饰。",
+      "alt": "联系我们"
+    },
+    "Description": {
+      "title": "联系我们",
+      "description": "如果您有任何疑问或需要帮助，请随时联系我们。我们的团队将尽快回复您的消息。"
+    },
+    "ContactForm": {
+      "name": "姓名",
+      "email": "邮箱",
+      "phone": "电话",
+      "postcode": "邮编",
+      "message": "留言",
+      "submit": "提交",
+      "optional": "选填",
+      "schema": {
+        "name": {
+          "required": "姓名是必填项"
+        },
+        "email": {
+          "required": "邮箱是必填项",
+          "invalid": "请输入有效的邮箱地址"
+        },
+        "phone": {
+          "required": "电话是必填项",
+          "min": "请提供至少10位数字的电话号码",
+          "max": "请提供至多15位数字的电话号码",
+          "regex": "请输入有效的电话号码"
+        },
+        "postcode": {
+          "regex": "请输入有效的邮编"
+        },
+        "message": {
+          "max": "留言不能超过500个字符"
+        }
+      },
+      "apiMessages": {
+        "submitSuccess": "您的消息已成功提交。我们的团队将尽快与您联系。",
+        "submitError": "提交表单时出错。请再试一次。",
+        "reCaptchaError": "请完成reCAPTCHA验证"
+      }
+    }
   },
-  "ProductPage": {
-    "title": "产品介绍"
+  "ShutterPage": {
+    "title": "{category}",
+    "description": "乐居布艺提供多种百叶窗解决方案，包括实木、合成材料和PVC百叶窗。百叶窗不仅提供隐私保护和光线控制，还能为您的空间增添优雅和经典风格。我们的百叶窗设计耐用、易于清洁，适用于各种窗户尺寸和形状。"
+  },
+  "CurtainsPage": {
+    "title": "{category}",
+    "description": "窗帘不仅仅是窗户的装饰——它们可以提升隐私、调节光线、改善隔热效果，并为房间增添一份优雅的气息。无论您追求的是温馨的极简风格，还是奢华的个性化设计，我们精选的窗帘系列都能满足各种品味和需求。在 Sweet Nest，您将发现创新的功能，如遮光面料、节能材料以及定制设计，让您的家或办公室更加出彩。"
+  },
+  "FabricPage": {
+    "title": "{category}",
+    "description": "布艺窗帘是家居装饰中多功能且必不可少的元素，兼具实用性和美观性。由多种材质制成，如棉、亚麻、天鹅绒和聚酯纤维，它们能有效控制光线、提升隐私性并提供隔热效果。探索我们多种窗帘风格系列，发现更多精彩产品。"
+  },
+  "SheerCurtainsPage": {
+    "title": "{category}",
+    "description": "纱帘是一种轻薄透明的窗饰，为任何空间增添一丝优雅与柔和之美。它们的设计既能引入自然光线，又能提供适度的隐私，营造出明亮通透的氛围。探索我们多种纱帘系列，发现更多选择。"
+  },
+  "CurtainHeadingsPage": {
+    "title": "{category}",
+    "description": "我们提供多种窗帘顶部设计样式，包括单褶、双褶、打孔环（Eyelet）和S型波浪，以满足您对美观和功能性的不同需求。"
+  },
+  "BlindsPage": {
+    "title": "{category}",
+    "description": "百叶窗帘是实用且时尚的窗户遮挡物，旨在提供隐私、光线控制和现代美学。百叶窗帘采用木材、铝材或布料等材料制成，款式多样，包括垂直百叶帘，罗马帘，和卷帘等。它们既适用于家庭，也适用于办公室，提供了一种既简洁又功能齐全的解决方案，能与任何装饰风格相得益彰。凭借可调节的百叶片或平滑的滚动机制，百叶帘使您能够轻松调节光线，营造舒适的氛围。"
+  },
+  "RollerBlindsPage": {
+    "title": "{category}",
+    "description": "卷帘是一种时尚实用的窗户遮挡解决方案，能够出色地控制光线并保护隐私。它们由布料或PVC等各种材料制成，操作简单，并提供多种颜色和设计选择。"
+  },
+  "VenetianBlindsPage": {
+    "title": "{category}",
+    "description": "百叶帘是一种经典的窗帘设计，由水平排列的窄条片组成，可调节角度以控制光线和隐私。百叶帘提供多种材质和颜色选择，适用于各种窗户尺寸和形状。"
+  },
+  "RomanBlindsPage": {
+    "title": "{category}",
+    "description": "罗马帘是一种经典优雅的窗户装饰，能为任何房间增添一份精致感。由织物制成，升起时整齐折叠，降下时呈现出平滑的量身定制外观。罗马帘不仅能出色地控制光线和保护隐私，其柔和、精致的外观还能提升装饰效果。罗马帘有各种颜色、图案和质地可供选择，既适合传统也适合现代室内装饰，为您的窗户提供永不过时的时尚解决方案。"
+  },
+  "VerticalBlindsPage": {
+    "title": "{category}",
+    "description": "垂直帘的特点是从上到下的宽板条，使任何窗户看起来更高更开阔。它们提供完全的光线控制，同时保持隐私，您可以调整百叶片的角度以达到理想的效果。另外，您也可以调节它们来让适量的光线温和地透入房间。凭借其多功能设计和易于维护的特点，垂直百叶窗近年来逐渐流行，成为一种备受青睐的选择。"
+  },
+  "ZebraBlindsPage": {
+    "title": "{category}",
+    "description": "斑马帘，也被称为双层帘，是传统横向百叶窗的现代替代方案。由不透明和透明织物条纹交替制成，这些窗帘可以实现从白天到夜晚的无缝过渡。通过调节条纹，您可以控制房间的光线量和私密程度。"
+  },
+  "ShangriLaBlindsPage": {
+    "title": "{category}",
+    "description": "香格里拉帘是一种定制面料，具有特殊的波浪形状，将日间和夜间面料连接在一起。当整个窗帘拉下时，帘子末端会打开露出一个透视网格，因此在一个窗帘中同时具有日间和夜间窗帘的功能。"
+  },
+  "CookiePolicyPage": {
+    "title": "Cookie政策",
+    "page": "<h1>Cookie政策</h1><p><strong>最后更新日期:</strong> 2024年11月1日</p><p>Sweet Nest Curtains and Blinds 重视您的隐私。本Cookie政策解释了我们如何在我们的网站上使用Cookie，以改善您的浏览体验并提供定制的服务。</p><h2>什么是Cookie？</h2><p>Cookie是您访问网站时存储在设备上的小型文本文件。它们帮助我们了解您如何与我们的网站互动，并使我们能够改进功能和性能。</p><h2>我们使用的Cookie类型</h2><h3>1. 必需的Cookie</h3><p>这些Cookie对于我们网站的正常运行至关重要，能够启用用户认证和安全浏览等功能。</p><h3>2. 定向Cookie</h3><p>这些Cookie帮助我们根据您的兴趣提供相关广告和内容。此外，它们还允许我们衡量营销活动的效果。</p><h2>第三方Cookie</h2><p>我们使用第三方服务（如<strong>Google Analytics</strong>）收集网站流量和用户行为的见解。这些服务可能会在您的设备上放置Cookie，以收集用于分析和广告目的的非个人身份信息。</p><h2>Cookie存储</h2><p>我们使用的所有Cookie均为<strong>会话型</strong>，这意味着它们仅在您浏览我们的网站时暂时存储。一旦您关闭浏览器，这些Cookie将自动删除。</p><h2>管理Cookie</h2><p>目前，我们不提供Cookie横幅或定制Cookie偏好的功能。通过使用我们的网站，您同意我们按照本政策使用Cookie。如果您希望禁用Cookie，可以通过您的浏览器设置进行操作。请注意，禁用Cookie可能会影响我们网站的功能。</p>"
+  },
+  "PrivacyPolicyPage": {
+    "title": "隐私政策",
+    "page": "<div><h1>隐私政策</h1><p>最后更新：2025年1月3日</p><div><section><h2>介绍</h2><div><p>SweetNest Curtains and Blinds 致力于保护您的隐私。本隐私政策解释了我们在您访问我们的网站并进行购买时如何收集、使用、披露和保护您的信息。</p></div></section><section><h2>我们收集的信息</h2><div><h3>个人信息</h3><p>我们可能会收集您提供给我们的个人信息，包括：</p><ul><li>姓名和联系信息</li><li>电子邮件地址</li><li>电话号码</li></ul><h3>自动收集的信息</h3><p>当您访问我们的网站时，我们会自动收集某些信息，包括：</p><ul><li>设备信息</li><li>IP地址</li><li>浏览器类型</li><li>查看的页面</li><li>在页面上停留的时间</li></ul></div></section><section><h2>我们如何使用您的信息</h2><div><p>我们收集的信息用于：</p><ul><li>处理和完成您的订单</li><li>与您沟通有关您的订单</li><li>向您发送营销通讯（在您同意的情况下）</li><li>改善我们的网站和服务</li><li>防止欺诈和未经授权的交易</li><li>遵守法律义务</li></ul></div></section><section><h2>信息共享</h2><div><p>我们可能会与以下人员共享您的信息：</p><ul><li>协助我们运营的服务提供商</li><li>专业顾问和咨询师</li><li>法律要求时的执法机关</li></ul><p>我们不会将您的个人信息出售给第三方。</p></div></section><section><h2>您的权利</h2><div><p>您有权：</p><ul><li>访问您的个人信息</li><li>更正不准确的信息</li><li>请求删除您的信息</li><li>选择退出营销通讯</li><li>请求您的数据副本</li></ul></div></section><section><h2>联系我们</h2><div><p>如果您对本隐私政策有任何问题，请通过以下方式联系我们：</p><div><p>电子邮件：sweetnest.curtains@gmail.com</p></div></div></section></div></div>"
   }
 }
